@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header Styles */
+.header {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar .action-button {
+  display: block;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border-radius: 5px;
+}
+
+.sidebar .action-button:hover {
+  background-color: #e55b5b;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+/* Main Section (Map) */
+.main {
+  flex-grow: 1;
+}
+
+.map-container {
+  height: calc(100vh - 120px); /* Adjust height based on header and footer */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
